@@ -7,16 +7,9 @@ input formats with both HTML and Markdown support. It is also meant to
 be as human-readable as possible when left as "source".
 
 There are many different Markdown implementation. Markdown filter uses
-"PHP Markdown extra" that includes many common and useful extensions to
-the original Markdown. This includes tables, footnotes and definition
-lists.
-
-Read more about Markdown at:
-
-- Original Markdown Syntax by John Gruber
-  <http://daringfireball.net/projects/markdown/syntax>
-- PHP Markdown Extra by Michel Fortin
-  <http://michelf.ca/projects/php-markdown/extra/>
+[PHP Markdown extra](http://michelf.ca/projects/php-markdown/extra/)
+that includes many common and useful extensions to the original Markdown.
+This includes tables, footnotes and definition lists.
 
 **Important note about running Markdown with other input filters**
 
@@ -36,26 +29,7 @@ text is perserved, run it after the Markdown filter. Note that
 blockquoting with Markdown doesn't work when run after "Limit allowed
 HTML tags". It converts the ">".
 
-Installation
-------------
-- Install this module using the official Backdrop CMS instructions at
-  https://backdropcms.org/guide/modules
-- Set up a new text format or add Markdown support to a text format at
-  Administration » Configuration » Content authoring » Text formats
-
 License
 -------
 
-This project is GPL v2 software. See the LICENSE.txt file in this directory for
-complete text.
-
-Maintainers
------------
-
-- Chris Herberte (https://github.com/chrisherberte)
-
-Credits
--------
-- Markdown created by John Gruber: <http://daringfireball.net>
-- PHP executions by Michel Fortin: <http://www.michelf.com/>
-- Drupal Markdown filter originally by justin2pin: <https://www.drupal.org/project/markdown>
+This project is GPL v2 software, but the php-markdown directory is distributed under separate copyright.
