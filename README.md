@@ -32,4 +32,4 @@ HTML tags". It converts the ">".
 License
 -------
 
-This project is GPL v2 software, but the php-markdown directory is distributed under separate copyright.
+The Backdrop module code is GPL v2 software, but the php-markdown library is distributed under separate copyright held by Michel Fortin.
