@@ -1,5 +1,5 @@
 Markdown Extra filter
-=============================
+=====================
 
 Provides Markdown Extra filter integration for Backdrop input formats. The
 Markdown Extra syntax is designed to co-exist with HTML, so you can set up
@@ -25,11 +25,26 @@ and that only markup you would like to allow in via HTML and/or Markdown
 Extra is configured to be allowed via the it.
 
 If you on the other hand want to make sure that all converted Markdown
-text is perserved, run it after the Markdown Extra filter. Note that
+text is preserved, run it after the Markdown Extra filter. Note that
 blockquoting with Markdown Extra doesn't work when run after "Limit allowed
 HTML tags". It converts the ">".
+
+Current Maintainer
+------------------
+
+- David Norman (https://github.com/deekayen)
+
+Credits
+-------
+
+- Original Backdrop port of Markdown by Chris Herberte (https://github.com/chrisherberte)
+- Markdown created by John Gruber (http://daringfireball.net)
+- PHP executions by Michel Fortin (http://www.michelf.com/)
+- Drupal Markdown filter originally by justin2pin (https://www.drupal.org/project/markdown)
+
 
 License
 -------
 
-The Backdrop module code is GPL v2 software, but the php-markdown library is distributed under separate copyright held by Michel Fortin.
+The Backdrop module code is GPL v2 software, but the php-markdown
+library is distributed under separate copyright held by Michel Fortin.
