@@ -15,12 +15,10 @@ function markdownextra_requirements($phase) {
   $t = get_t();
 
   if ($phase == 'runtime') {
-    module_load_include('php', 'markdownextra', 'Markdown.inc');
-
     $requirements['markdownextra_lib_version'] = array(
-      'title' => $t('Markdown library version'),
-      'value' => l($t('@version', array('@version' => \Michelf\Markdown::MARKDOWNLIB_VERSION)), 'http://michelf.com/projects/php-markdown/'),
-      'severity' => REQUIREMENT_INFO,
+      'title' => $t('Markdown Extra is gone'),
+      'value' => l($t('@link', array('@link' => 'Use Markdown filter')), 'https://backdropcms.org/project/markdown'),
+      'severity' => REQUIREMENT_ERROR,
     );
   }
 
